@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rebuild Sim Randomizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <h1 id="title">Rebuild Sim Randomizer</h1>
+    <div id="settingsDiv">
+        <div id="lowerMultiplierDiv">
+            <p>Lower Multiplier</p>
+            <input id="lowerMultiplier" type="text" value="0.5" onchange="changeLowerMultiplier()">
+        </div>
+        <div id="botNumDiv">
+            <p>Number of Bots</p>
+            <input id="botNum" type="text" value="2" onchange="changeBotNum()">
+        </div>
+        <div id="botRankDiv">
+            <p>Rank of Bots</p>
+            <select name="cars" id="botRank" onchange="changeBotRank()">
+                <option value="All">All</option>
+                <option value="S">S</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+            </select>
+        </div>
+        <div id="upperMultiplierDiv">
+            <p>Upper Multiplier</p>
+            <input id="upperMultiplier" type="text" value="2" onchange="changeUpperMultiplier()">
+        </div>
+    </div>
+    <button id="generateButton" onclick="buttonClick()">Generate</button>
+    <script src="script.js"></script>
+</body>
+</html>

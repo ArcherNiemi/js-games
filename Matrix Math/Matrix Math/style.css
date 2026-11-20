@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    white-space: pre-line;
+    text-align: center;
+}
+
+#inputContainer{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#outputContainer{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    width: 5vw;
+    height: 5vh;
+}
+
+.sizeContainer{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.runButton {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    width: 8vw;
+    height: 8vh;
+}
+
+#determinant{
+    position: absolute;
+    left: 75%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
