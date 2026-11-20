@@ -1,0 +1,310 @@
+button {
+    font-size: 1.2vw;
+}
+
+.saving {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    height: 20vh;
+    width: 20vw;
+}
+
+.investing {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    height: 20vh;
+    width: 20vw;
+}
+
+.upgrades {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    height: 80vh;
+    width: 20vw;
+}
+
+#moneyText {
+    font-size: 3vw;
+    color: black;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+#moneyPerClickText {
+    font-size: 2vw;
+    color: black;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+#speedText {
+    font-size: 2vw;
+    color: black;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+#clickButton {
+    font-size: 4vw;
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.clickUpgrades {
+    position: absolute;
+    height: 12vh;
+    width: 17vw;
+    top: 10%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+#speedUpgrades {
+    position: absolute;
+    height: 12vh;
+    width: 17vw;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+#upgradeClickButton, #upgradeSpeedButton {
+    width: 12vw;
+    height: 12vh;
+    position: absolute;
+}
+
+#upgradeAllClickButton, #upgradeAllSpeedButton {
+    width: 5vw;
+    height: 12vh;
+    position: absolute;
+    right: 0%;
+}
+
+#unlockSpeedButton {
+    width: 12vw;
+    height: 12vh;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.sideMoneyText {
+    font-size: 2.5vw;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    translate: -50% -50%;
+    margin: 0;
+    line-height: 1;
+}
+
+.sideInButton {
+    font-size: 2vw;
+    background-color: rgb(47, 214, 61);
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 45%;
+    height: 50%;
+}
+
+.sideOutButton {
+    font-size: 2vw;
+    background-color: rgb(232, 78, 51);
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 45%;
+    height: 50%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.hide {
+  display: none;
+}
+
+#saveBuy, #investBuy {
+    width: 50%;
+    height: 50%;
+}
+
+#buyWorkerButton {
+    width: 12vw;
+    height: 12vh;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    translate: -50% -50%;   
+}
+
+#viewWorkerButton {
+    width: 12vw;
+    height: 12vh;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    translate: -50% -50%;   
+}
+
+#viewWorkerWindow {
+    width: 40vw;
+    height: 80vh;
+    border: 5px solid black;
+    background-color: rgb(200,200,200);
+    overflow-y: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    z-index: 1;
+    display: none;
+}
+
+.workerHeader {
+    font-size: 4vw;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    border-bottom: 2px solid rgb(150,150,150);
+}
+
+.inner-content {
+    position: relative;
+    padding: 10px;
+    border-bottom: 2px solid rgb(150,150,150);
+    height: 8%;
+    /* Ensure inner divs take full width if needed, or adjust width for horizontal scrolling */
+}
+
+.end-content {
+    position: relative;
+    padding: 10px;
+    border-bottom: 2px solid rgb(150,150,150);
+    height: 20%;
+    /* Ensure inner divs take full width if needed, or adjust width for horizontal scrolling */
+}
+
+.workerName {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%, -50%);
+    margin: 0;
+    white-space: nowrap;
+    display: block; 
+}
+
+.workerMoney {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(0%, -50%);
+    margin: 0;
+    white-space: nowrap;
+    display: block; 
+}
+
+.viewButton {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    width: 15%;
+    height: 60%;
+    background-color: aqua;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    white-space: nowrap;
+    display: block; 
+}
+
+.stealButton {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    width: 15%;
+    height: 60%;
+    background-color: red;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    white-space: nowrap;
+    display: block; 
+}
+
+.stealAllButton {
+    position: absolute;
+    top: 7.5%;
+    left: 85%;
+    width: 20%;
+    height: 10%;
+    background-color: red;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    white-space: nowrap;
+    display: block; 
+}
+
+#sortButton {
+    position: absolute;
+    top: 7.5%;
+    left: 15%;
+    width: 20%;
+    height: 10%;
+    background-color: rgb(255,128,128);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    white-space: nowrap;
+    display: block; 
+}
+
+.backButton {
+    position: relative;
+    padding: 10px;
+    left:50%;
+    top: 50%;
+    width: 80%;
+    height: 80%;
+    font-size: 2vw;
+    background-color: orange;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    white-space: nowrap;
+    display: block; 
+}
+
+#name {
+    position: absolute;
+    right:3%;
+    top:0%;
+}
+
+#doubleOrNothingButton {
+    position: absolute;
+    font-size: 1.5vw;
+    right: 20%;
+    top: 60%;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(150,80,255);
+    transform: translate(50%, 50%);
+}

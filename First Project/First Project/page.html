@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styleSheet.css">
+    </head>
+    <body>
+        <div id="viewWorkerWindow">
+            <h1 class="workerHeader">Workers</h1>
+            <button class='stealAllButton' onclick='stealAllMoney()'>Steal All</button>
+            <button id='sortButton' onclick='sortWorkers()'>Sort</button>
+            <div class='inner-content'>
+                <h2 class='workerName'>Bob<h2>
+                <h2 class='workerMoney'>$100000<h2>
+                <button class='stealButton' onclick=''>Steal</button>
+                <button class='viewButton' onclick=''>View</button>
+            </div>
+            <div class='end-content'>
+                <button class='backButton' onclick='backFromViewAllWorkers()'>Back</button>
+            </div>
+        </div>
+        <div class="upgrades">
+            <div class="clickUpgrades">
+                <button  id="upgradeClickButton" onmousedown="holdButton(buyClick)">$10: +1 click</button>
+                <button id="upgradeAllClickButton" onclick="buyAllClicks()">Buy All</button>
+            </div>
+            <button id="unlockSpeedButton" onclick="useSuperSpeed()">$10000: super speed</button>
+            <div class="hide" id="speedUpgrades">
+                <button  id="upgradeSpeedButton" onmousedown="holdButton(buySpeed)">$1000: +10 speed</button>
+                <button id="upgradeAllSpeedButton" onclick="buyAllSpeed()">Buy All</button>
+            </div>
+            <button id="buyWorkerButton" onmousedown="holdButton(buyWorker)">$1000000: Worker</button>
+            <button id="viewWorkerButton" onclick="viewAllWorkers()">View Workers</button>
+        </div>
+        <h1 id="name">Player<h1>
+        <h1 id="moneyText">$0.00</h1>
+        <h1 id="moneyPerClickText">+1</h2>
+        <h1 id="speedText">Speed: 10</h2>
+        <button id="clickButton" onmousedown="holdButton(addMoney)">Click</button>
+        <div class="saving">
+            <button class="center" id="saveBuy" onclick="buySavings()">Save $10</button>
+            <p class="sideMoneyText hide" id="saveMoneyText">$0.00</p>
+            <button class="sideInButton hide" id="saveButton" onmousedown="holdButton(saveMoney)">Save</button>
+            <button class="sideOutButton hide" id="takeOutSaveButton" onclick="takeOutSave()">Takeout</button>
+        </div>
+        <div class="investing">
+            <button class="center" id="investBuy" onclick="buyInvestings()">Invest $100</button>
+            <p class="sideMoneyText hide" id="investMoneyText">$0.00</p>
+            <button class="sideInButton hide" id="investButton" onmousedown="holdButton(investMoney)">Invest</button>
+            <button class="sideOutButton hide" id="takeOutInvestButton" onclick="takeOutInvest()">Takeout</button>
+        </div>
+        <button id="doubleOrNothingButton" onclick="doubleOrNothing()">Double or Nothing</button>
+        <h1 id="test">$0.00</h1>
+    </body>
+</html>
